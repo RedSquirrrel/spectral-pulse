@@ -6,9 +6,3 @@
 ---
 
 ## The test Music created by KoobzZ, for more Music you can check out his youtube channel https://www.youtube.com/c/KoobzZ 
-
-<br /> 
-<br /> 
-
-
-![home_page](home_page.png) 
