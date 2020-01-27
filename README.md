@@ -11,4 +11,4 @@
 <br /> 
 
 
-![home_page](/home_page.png) 
+![home_page](home_page.png) 
