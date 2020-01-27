@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+body {
+  background: url('./silhouette-725145_1920.jpg') no-repeat center center/cover fixed;
+  padding: 4rem 6rem;
+  font-family: 'Sirin Stencil', cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #143477;
+}
+
+a:hover {
+  color: #e9eaef;
+}
+
+
+.main {
+  width: 80%;
+  background-color: #e9eaef7c;
+  box-shadow: 0 0 20px #143477;
+  margin: 0 auto;
+}
+
+.top{
+  background-color: rgb(	60, 91, 154, 0.8);
+  padding: 2rem 5rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.nav {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bolder;  
+}
+
+h2{
+  color: #e9eaef;
+  text-align: center;
+  font-size: 2rem;
+  padding: 25px;
+  background: #143477;  
+  margin-bottom: 2rem;
+}
+
+.text {
+  color: #e9eaef; 
+  font-size: 1.5rem;
+  padding-bottom: 14px;
+}
+
+.article {
+   padding: 2rem;
+}
+
+.button {
+  position: relative;
+  left: 70%;
+  margin-bottom: 2rem; 
+  padding:1rem;
+}
+
+
+.btn {
+  margin: 15px 30px;
+  padding: 10px 15px;
+  background: #e9eaef;
+  font-size: 2rem;
+  border-radius: 10px;  
+  border: 1px solid #29487d;
+}
+
+.btn:hover {
+  background:  #143477;
+  color: #e9eaef;
+}
+
+
+
+@media (max-width: 800px) {
+
+  
+body {
+  padding: 1rem 2rem;
+  font-family: 'Sirin Stencil', cursive;
+}
+
+.main {
+  width: 100%;
+}
+
+.top{    
+  padding: 2rem 2rem;  
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav {
+   font-size: 1.5rem;
+ 
+}
+
+h2{  
+  font-size: 1.5rem;  
+  background: none;    
+}
+
+.text {  
+  font-size: 1rem;  
+}
+
+.article {
+   padding: 1rem;
+}
+
+.button {  
+  left: 50%;
+  margin-bottom: 1rem;   
+}
+
+
+.btn {
+  margin: 10px 20px;
+  font-size: 1.1rem;  
+}
+}
